@@ -1,167 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Get Fit Pro - Unleash Your Power</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get Fit Pro – Premium Fitness Experience</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="logo">Get Fit Pro</div>
-    <ul class="nav-links">
-      <li><a href="#home" class="nav-link">Home</a></li>
-      <li><a href="#about" class="nav-link">About</a></li>
-      <li><a href="#classes" class="nav-link">Classes</a></li>
-      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
-    </ul>
-  </nav>
 
-  <!-- Hero Section with Image Slider -->
-  <section id="home" class="hero">
-    <div class="hero-slider">
-      <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1350&q=80');"></div>
-      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=1350&q=80');"></div>
-      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1350&q=80');"></div>
-    </div>
-    <div class="hero-content">
-        <h1>Power Up at Get Fit Pro!<span id="typed-text"></span></h1>
-        <p>Transform your body, ignite your spirit, and join a community that pushes you to be your best—every single day.</p>
-        <a href="#classes" class="btn animated-btn">Join Now</a>
-      </div>
-  </section>
+<nav class="navbar">
+  <div class="logo">Get<span>Fit</span>Pro</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#classes">Classes</a></li>
+    <li><a href="#trainers">Trainers</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="menu-toggle" id="mobile-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
 
-  <!-- About Section -->
-  <section id="about" class="about parallax-section">
-    <div class="parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=1350&q=80');"></div>
-    <div class="content">
-      <h2>About Get Fit Pro</h2>
-      <p>Welcome to <strong>Get Fit Pro</strong>, where fitness meets passion! Located in the heart of the city, we offer state-of-the-art equipment, expert trainers, and a vibrant community. With over 10,000 sq. ft. of workout space, 50+ weekly classes, and 24/7 access, we’re here to help you achieve your goals—whether it’s building strength, improving endurance, or finding balance.</p>
-      <p>Founded in 2015, Get Fit Pro has empowered thousands to transform their lives through fitness. Join us and become part of a movement that’s all about pushing limits and celebrating every victory!</p>
-      <svg class="gym-icon" width="60" height="60" viewBox="0 0 24 24">
-        <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.5l8 4v6l-8 4-8-4v-6l8-4z" fill="none" stroke="#ff6f61" stroke-width="2"/>
-      </svg>
-    </div>
-  </section>
+<section id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
 
-  <!-- Classes Section -->
-  <section id="classes" class="classes">
-    <h2>Our Classes</h2>
-    <div class="class-grid">
-      <div class="class-card" style="background-image: url('images/class3.jpg');">
-        <div class="card-overlay">
-          <h3>Strength Training</h3>
-          <p>Build muscle and power with expert guidance.</p>
-        </div>
-      </div>
-      <div class="class-card" style="background-image: url('images/our\ class.avif');">
-        <div class="card-overlay">
-          <h3>Cardio Blast</h3>
-          <p>Burn calories and boost endurance.</p>
-        </div>
-      </div>
-      <div class="class-card" style="background-image: url('images/our\ class2.avif');">
-        <div class="card-overlay">
-          <h3>Yoga Flow</h3>
-          <p>Enhance flexibility and inner peace.</p>
-        </div>
+  <div class="hero-content">
+    <h1>Get Fit <span>Pro</span></h1>
+    <div class="tagline">Elevate Your Strength</div>
+    <p class="subtitle">
+      Premium training spaces • Expert coaching • Results-focused community • 
+      24/7 access • Modern equipment • Your next level starts here.
+    </p>
+    <a href="#pricing" class="btn btn-primary">Join Today</a>
+  </div>
+
+  <i class="fa-solid fa-chevron-down scroll-indicator"></i>
+</section>
+
+<section id="about">
+  <h2>About <span>Get Fit Pro</span></h2>
+  <div class="content-wrapper">
+    <p style="font-size:1.15rem; max-width:860px; margin:0 auto 2rem; text-align:center; opacity:0.9;">
+      Get Fit Pro is more than a gym — it's a community built around real results, expert guidance, and an environment that inspires consistency.
+      With over 10,000 sq ft of premium space, 50+ weekly classes, certified trainers, and 24/7 access, we help every member unlock their full potential.
+    </p>
+  </div>
+</section>
+
+<section id="classes">
+  <h2>Our <span>Classes</span></h2>
+  <div class="content-wrapper grid-4">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80" alt="Strength" class="card-img">
+      <div class="card-body">
+        <h3>Strength Training</h3>
+        <p>Build power and muscle with structured progressive overload programs.</p>
       </div>
     </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials">
-    <h2>What Our Members Say</h2>
-    <div class="testimonial-scroller">
-      <div class="testimonial-track">
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Sarah" class="member-pic">
-          <p>"This gym changed my life! The trainers are incredible."</p>
-          <h4>- Sarah K.</h4>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Mike" class="member-pic">
-          <p>"Best workouts and community I’ve ever experienced."</p>
-          <h4>- Mike T.</h4>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Emily" class="member-pic">
-          <p>"I feel stronger and more confident every day."</p>
-          <h4>- Emily R.</h4>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="James" class="member-pic">
-          <p>"The equipment and classes are top-notch!"</p>
-          <h4>- James P.</h4>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/women/5.jpg" alt="Lisa" class="member-pic">
-          <p>"A welcoming environment that keeps me motivated."</p>
-          <h4>- Lisa M.</h4>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/men/6.jpg" alt="Tom" class="member-pic">
-          <p>"I’ve never been in better shape—thanks, Get Fit Pro!"</p>
-          <h4>- Tom H.</h4>
-        </div>
-        <!-- Duplicate cards for seamless looping -->
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Sarah" class="member-pic">
-          <p>"This gym changed my life! The trainers are incredible."</p>
-          <h4>- Sarah K.</h4>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Mike" class="member-pic">
-          <p>"Best workouts and community I’ve ever experienced."</p>
-          <h4>- Mike T.</h4>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Emily" class="member-pic">
-          <p>"I feel stronger and more confident every day."</p>
-          <h4>- Emily R.</h4>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="James" class="member-pic">
-          <p>"The equipment and classes are top-notch!"</p>
-          <h4>- James P.</h4>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/women/5.jpg" alt="Lisa" class="member-pic">
-          <p>"A welcoming environment that keeps me motivated."</p>
-          <h4>- Lisa M.</h4>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/men/6.jpg" alt="Tom" class="member-pic">
-          <p>"I’ve never been in better shape—thanks, Get Fit Pro!"</p>
-          <h4>- Tom H.</h4>
-        </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80" alt="Cardio" class="card-img">
+      <div class="card-body">
+        <h3>Cardio & Conditioning</h3>
+        <p>High-energy sessions designed to improve endurance and burn fat efficiently.</p>
       </div>
     </div>
-  </section>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80" alt="Yoga" class="card-img">
+      <div class="card-body">
+        <h3>Yoga & Mobility</h3>
+        <p>Restore balance, increase flexibility, and reduce stress with guided flows.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=800&q=80" alt="HIIT" class="card-img">
+      <div class="card-body">
+        <h3>HIIT & Functional</h3>
+        <p>Intense, full-body workouts that deliver maximum results in minimum time.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <h2>Get In Touch</h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Message" required></textarea>
-      <button type="submit" class="btn animated-btn">Send</button>
-    </form>
-  </section>
+<section id="trainers">
+  <h2>Expert <span>Trainers</span></h2>
+  <div class="content-wrapper grid-3">
+    <div class="card" style="text-align:center; padding:2.5rem 1.5rem;">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Trainer" class="member-pic" style="width:140px;height:140px;border:4px solid #e63946;margin-bottom:1.2rem;">
+      <h3>Ali Khan</h3>
+      <p>Strength & Powerlifting Specialist<br>10+ years experience</p>
+    </div>
+    <div class="card" style="text-align:center; padding:2.5rem 1.5rem;">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Trainer" class="member-pic" style="width:140px;height:140px;border:4px solid #e63946;margin-bottom:1.2rem;">
+      <h3>Sara Ahmed</h3>
+      <p>Yoga & Mobility Coach<br>RYT 500 Certified</p>
+    </div>
+    <div class="card" style="text-align:center; padding:2.5rem 1.5rem;">
+      <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Trainer" class="member-pic" style="width:140px;height:140px;border:4px solid #e63946;margin-bottom:1.2rem;">
+      <h3>Hassan Raza</h3>
+      <p>HIIT & Conditioning Expert<br>NASM Certified</p>
+    </div>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Get Fit Pro. All rights reserved.</p>
-  </footer>
+<section id="pricing">
+  <h2>Membership <span>Plans</span></h2>
+  <div class="content-wrapper grid-3">
+    <div class="card pricing-card">
+      <div class="card-body" style="text-align:center;">
+        <h3>Basic</h3>
+        <div class="price">$29<span style="font-size:1.4rem;">/mo</span></div>
+        <ul style="list-style:none; margin:1.5rem 0; opacity:0.9;">
+          <li>24/7 Gym Access</li>
+          <li>Basic Classes</li>
+          <li>Locker Room</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+      </div>
+    </div>
+    <div class="card pricing-card featured">
+      <div class="card-body" style="text-align:center;">
+        <h3>Pro</h3>
+        <div class="price">$49<span style="font-size:1.4rem;">/mo</span></div>
+        <ul style="list-style:none; margin:1.5rem 0;">
+          <li>Unlimited Classes</li>
+          <li>Trainer Consultations</li>
+          <li>Priority Booking</li>
+          <li>Guest Passes</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Join Pro</a>
+      </div>
+    </div>
+    <div class="card pricing-card">
+      <div class="card-body" style="text-align:center;">
+        <h3>Elite</h3>
+        <div class="price">$79<span style="font-size:1.4rem;">/mo</span></div>
+        <ul style="list-style:none; margin:1.5rem 0; opacity:0.9;">
+          <li>All Pro Benefits</li>
+          <li>Personal Training</li>
+          <li>Nutrition Guidance</li>
+          <li>Private Locker</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Go Elite</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <!-- Libraries -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script src="script.js"></script>
+<section id="testimonials">
+  <h2>Member <span>Stories</span></h2>
+  <div class="testimonial-scroller" style="overflow:hidden;">
+    <div class="testimonial-track">
+      <!-- 6 cards + 6 duplicates = 12 -->
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/women/32.jpg" class="member-pic" alt=""><p>"Transformed my body and mindset in just 4 months. Best decision ever."</p><h4>— Ayesha M.</h4></div>
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/men/45.jpg" class="member-pic" alt=""><p>"The trainers actually care. They pushed me beyond what I thought possible."</p><h4>— Bilal K.</h4></div>
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/women/68.jpg" class="member-pic" alt=""><p>"Finally found a gym that feels like home. The community is incredible."</p><h4>— Fatima R.</h4></div>
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/men/22.jpg" class="member-pic" alt=""><p>"Best equipment and cleanest facility in the city. Worth every penny."</p><h4>— Omar S.</h4></div>
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/women/51.jpg" class="member-pic" alt=""><p>"Lost 18 kg and gained confidence I never had before. Thank you GFP!"</p><h4>— Mahnoor Z.</h4></div>
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/men/78.jpg" class="member-pic" alt=""><p>"Professional yet welcoming. The perfect place to get serious results."</p><h4>— Zain A.</h4></div>
+
+      <!-- duplicates -->
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/women/32.jpg" class="member-pic" alt=""><p>"Transformed my body and mindset in just 4 months. Best decision ever."</p><h4>— Ayesha M.</h4></div>
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/men/45.jpg" class="member-pic" alt=""><p>"The trainers actually care. They pushed me beyond what I thought possible."</p><h4>— Bilal K.</h4></div>
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/women/68.jpg" class="member-pic" alt=""><p>"Finally found a gym that feels like home. The community is incredible."</p><h4>— Fatima R.</h4></div>
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/men/22.jpg" class="member-pic" alt=""><p>"Best equipment and cleanest facility in the city. Worth every penny."</p><h4>— Omar S.</h4></div>
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/women/51.jpg" class="member-pic" alt=""><p>"Lost 18 kg and gained confidence I never had before. Thank you GFP!"</p><h4>— Mahnoor Z.</h4></div>
+      <div class="testimonial-card"><img src="https://randomuser.me/api/portraits/men/78.jpg" class="member-pic" alt=""><p>"Professional yet welcoming. The perfect place to get serious results."</p><h4>— Zain A.</h4></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Get In <span>Touch</span></h2>
+  <form class="contact-form content-wrapper">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <textarea placeholder="Your Message..." required></textarea>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Get Fit Pro. All rights reserved.</p>
+  <div class="social">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
